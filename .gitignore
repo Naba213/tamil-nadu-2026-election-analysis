@@ -1,0 +1,24 @@
+# Local Claude Code settings (machine-specific)
+.claude/settings.local.json
+
+# Power BI backup snapshots — not meant for version history,
+# git itself is now the history/backup mechanism
+tamilnadu_backup_*.pbix
+
+# Reproducible tabular exports (regenerate with `python build_dashboard.py`)
+# Charts and the PPTX are kept tracked as showcase artifacts.
+data/outputs/fact_*.csv
+data/outputs/dim_*.csv
+data/outputs/winners_*.csv
+
+# Scratch dirs the upgrade script uses transiently
+_pbix_work/
+_validate_extract/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store

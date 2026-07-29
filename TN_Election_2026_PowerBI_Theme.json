@@ -1,0 +1,120 @@
+{
+  "name": "TN Election 2026 — Navy & Gold",
+  "dataColors": [
+    "#FF6B00",
+    "#E8192C",
+    "#1B6B35",
+    "#0066CC",
+    "#8B0000",
+    "#4B0082",
+    "#FF9933",
+    "#9E9E9E"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2B2B2B",
+  "tableAccent": "#12213F",
+  "good": "#2E7D32",
+  "neutral": "#A9812F",
+  "bad": "#C62828",
+  "maximum": "#12213F",
+  "center": "#A9812F",
+  "minimum": "#FFFFFF",
+  "textClasses": {
+    "title": {
+      "fontFace": "Cambria",
+      "fontSize": 14,
+      "color": "#12213F"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#12213F"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#2B2B2B"
+    },
+    "callout": {
+      "fontFace": "Cambria",
+      "color": "#12213F"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontFamily": "Cambria",
+            "fontColor": { "solid": { "color": "#12213F" } },
+            "background": { "solid": { "color": "#FFFFFF" } },
+            "bold": true,
+            "titleWrap": false
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          { "show": false }
+        ],
+        "outspacePane": [
+          { "backgroundColor": { "solid": { "color": "#F1F2F6" } } }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": "#12213F",
+            "fontFamily": "Cambria",
+            "fontSize": 28
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": "#75757F",
+            "fontFamily": "Segoe UI",
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "card": [
+          { "outlineColor": "#E2E2E2", "outlineWeight": 1 }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "fontColor": "#12213F",
+            "background": "#F1F2F6"
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          { "gridVertical": false, "rowPadding": 6 }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": "#FFFFFF",
+            "backColor": "#12213F",
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "values": [
+          { "fontFamily": "Segoe UI", "fontColor": "#2B2B2B" }
+        ]
+      }
+    }
+  }
+}
